@@ -1,13 +1,11 @@
 from selenium import webdriver
 import pyautogui
-import pandas as pd
 
-#Extracting data using Pandas
-df = pd.read_csv("C:\\path.csv) # For .xlsx use read_excel() instead
-#Filtering dataframe
-df = df[(df['Column_name']==value)]
-#Slicing data frame in list
-ids = df["Column_name_u_want_to_slice"][:len].values
+'''
+Opens multiples url at once given a list of ids. Useful when the url you want top open have a generic format, here it is url/document_id.pdf
+
+To open multiple windows at once, add more drivers and iterate through the drivers as well
+'''
 
 driver = webdriver.Chrome()
 url = "your_url"
