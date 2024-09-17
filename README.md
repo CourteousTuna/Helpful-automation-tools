@@ -31,10 +31,24 @@ id_3    w          w           w
 id_3    t          t           t 
 id_3    s          s           s 
 ```
+
+### [Stats using Pandas on Excel file](./excel_stats-using-pandas.py)
+
+Uses the Pandas to process and analyze data from a CSV file. Performs several operations:
+
+1. Data Extraction
+2. Data Transformation
+3. Filtering
+4. Grouping and Counting
+5. Boolean Masking
+6. Average Calculation
+
+
 ### [Nice format for confusion matrix](./confusion-matrix.py)
 
 Example of output:
 
+```
 Confusion Matrix:
           Predicted 1    Predicted 0
 Actual 1  120            7
@@ -45,3 +59,4 @@ Accuracy: 0.93
 Precision: 0.97
 Recall: 0.94
 F1 Score: 0.96
+```
